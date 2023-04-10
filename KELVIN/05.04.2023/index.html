@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form action=""> <!--formulario-->
+        <fieldset><!--cria uma borda envolvendo todo o conteudo selecionado-->
+            <legend>Cadastro</legend> <!--cria uma legenda -->
+        <label for="cNome">Nome</label> <!--itens de acessibilidade-->
+        <input type="text" id="cNome" required><!--itens de acessibilidade-->
+        <br>
+        <p>Onde voce mora?</p>
+        <input type="radio"><!--Radio faz mostrar opçãos o formato de O no formulario-->
+        <label for="">Cidade</label><br>
+        <input type="radio">
+        <label for="">Interior</label>
+        
+        <p>Qual meio de transporte voce usa?</p>
+        <input type="checkbox"> <!--cria uma opção em formato quadrado-->
+        <label for="">Bicicleta</label>
+        <input type="checkbox"> <!--cria uma opção em formato quadrado-->
+        <label for="">Onibus</label>
+        <input type="checkbox"> <!--cria uma opção em formato quadrado-->
+        <label for="">Metrô</label>
+        <input type="checkbox"> <!--cria uma opção em formato quadrado-->
+        <label for="">Carro</label><br><br>
+        
+
+        <label for="time">Selecione o seu time</label>
+        <select name="select"> <!--menu de seleção-->
+            <option value="palmeiras">Palmeiras</option><!--opções de times-->
+            <option value="São Paulo" selected>São Paulo</option>
+            <option value="Santos" >Santos</option>
+            <option value="Goias">Goias</option>
+            <option value="Vasco">Vasco</option>
+            <option value="Juventude">Juventude</option>
+          </select>
+        <br><br>
+
+        <label for="">Escolha sua cidade</label><!--form de autocomplete-->
+    
+        <input autocomplete="on" list="cidades"><!--input de autocomplete-- da list cidades
+        -->
+    </fieldset>
+        <datalist id="cidades"> <!--vinculação com input autocomplete "cidades"-->
+            <option value="São Paulo"></option>
+            <option value="São Sebastião"></option>
+            <option value="São Bernardo"></option>
+            <option value="Guarulhos"></option>
+        </datalist>
+        <br>
+        0 <input type="range"> 100  <br><br>
+        <textarea name="" id="" cols="30" rows="10"></textarea><!--cria uma caixa grande de texto-->
+
+        <input type="submit" value="Encaminhar"><!--botao de enviar submit -->
+       
+    </form>
+</body>
+</html>

@@ -1,0 +1,20 @@
+.tabela{
+    border-style: solid;
+    border-color: red;
+    border-width: 10px;
+    width: 500px; /*largura da tabela*/
+    text-align: center; /*alinha o texto ao centro*/
+    
+}
+
+th{
+    border-style: solid; /*estilo da bora*/
+    border-color: red; /*cor da borda*/
+    border-width: 10px; /*largura da borda*/
+}
+
+td{
+    border-style: solid; /*estilo da bora*/
+    border-color: red; /*cor da borda*/
+    border-width: 10px; /*largura da borda*/
+}

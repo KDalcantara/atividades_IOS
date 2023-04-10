@@ -1,0 +1,18 @@
+
+
+table, td { /*table e td vai receber as mesmas configurações*/
+    border: solid rgb(10, 10, 10); /*estilo da bora, cor e espeçura da borda*/
+    
+}
+
+table{
+    width: 500px;
+}
+
+.number2{
+    background-color: grey;
+}
+
+.cabeçalho{
+    background-color: aqua;
+}
