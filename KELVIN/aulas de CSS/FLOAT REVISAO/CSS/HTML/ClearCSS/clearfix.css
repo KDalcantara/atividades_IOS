@@ -1,0 +1,25 @@
+div{
+    background-color: #4CAF50;
+    border: 3px solid #4CAF50;
+    padding: 5px;
+    height: 100px;
+    width: 100px;
+    
+}
+
+section {
+ border: 3px solid  #4CAF50 ;   
+ padding: 5px;
+}
+
+.img1{
+    float: right;
+}
+
+.img2{
+    float: right;
+}
+
+.caixa{
+    overflow: auto; /* exibido com barras de rolagem ou se transborda do elemento*/
+}

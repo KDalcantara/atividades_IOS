@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    
+    padding: 20px;
+    width: 100%;
+}
+
+div{
+    height:150px ;
+    margin: 5px;
+    width: 50px;
+}
+
+.esquerda{
+    background-color: pink;
+    float: left; /*float left deixa os itens alinhados um ao lado do outro*/
+
+}
+
+.direita{
+    float: right; /*float right deixa os itens alinhados um ao lado do outro*/
+    background-color: cyan;
+
+}

@@ -1,0 +1,36 @@
+body{
+    background-color: #262737 ;
+    color: aliceblue;
+}
+
+.box{
+    border: 1px solid yellowgreen;
+    padding: 70px; /*espaçamento do conteudo */
+
+}
+
+article h1{
+    text-align: center;
+    
+}
+
+article p {
+    text-align: justify; 
+} 
+
+
+article .boxPadding{ /*acessando um elemento dentro do outro */
+    border: 1px solid yellowgreen;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+
+.box2 .boxPadding { /*melhor pratica de acesso a class */
+    background-color: lightblue;
+    border: 1px solid rgb(8, 8, 8);;
+    padding: 25px 50px 75px 100px;
+    color: green
+
+}

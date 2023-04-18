@@ -1,0 +1,30 @@
+nav{
+    float: left;
+    width: 100%; /*width 100% ocupa todo o espaço da linha do conteudo*/
+}
+
+.div1{
+    background-color: red;
+    float: left;
+    width: 33%;
+}
+
+.div2{
+    background-color: yellow;
+    float: left;
+    width: 33%;
+}
+
+.div3{
+    background-color: green;
+    float: left;
+    width: 33%;
+}
+.box{
+    background-color: blue;
+    border: 1px solid black;
+    float: right; /*float: right, move a caixa para a direita*/
+    height: 300px;
+    width: 200px;
+
+}
